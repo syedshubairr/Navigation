@@ -19,6 +19,7 @@ function App(): React.JSX.Element {
           component={Home}
           options={{
             title: 'Home',
+            animation: 'ios',
           }}
         />
         <Stack.Screen
@@ -26,6 +27,7 @@ function App(): React.JSX.Element {
           component={Details}
           options={{
             title: 'Details',
+            animation: 'ios',
           }}
         />
       </Stack.Navigator>
